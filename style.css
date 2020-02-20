@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(185, 176, 138);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  min-height: 12vh;
+  background-color: rgb(185, 176, 138);
+}
+
+.logo {
+  display: inline;
+  position: absolute;
+  width: 25%;
+  height: 34.5%;
+  left: 1.4rem;
+  top: 0;
+}
+
+.link1 {
+  position: absolute;
+  right: 12rem;
+}
+.link2 {
+  position: absolute;
+  right: 9rem;
+}
+.link3 {
+  position: absolute;
+  right: 6rem;
+}
+.link4 {
+  position: absolute;
+  right: 3rem;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+h4 {
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Nav-link {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+.Nav-link li {
+  list-style: none;
+}
+
+.Nav-link a {
+  color: black;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.footer-links li {
+  justify-content: space-around;
+  width: 40%;
+  padding-bottom: 1rem;
+}
+.footer-links a {
+  color: black;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.footer-links {
+  list-style: none;
+}
+
+.recipe-pic {
+  width: 70%;
+  height: 63rem;
+  position: absolute;
+  top: 13rem;
+  left: 25rem;
+  box-shadow: 10px 10px 5px grey;
+}
+.contact-pic {
+  background-size: cover;
+}
+h3 {
+  position: absolute;
+  top: 49%;
+  left: 40%;
+  text-transform: uppercase;
+  font-size: 7rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 9px;
+
+  font-weight: 100;
+  color: black;
+  border-color: 2px black;
+}
+
+form {
+  text-align: left;
+  position: absolute;
+  top: 30rem;
+  left: 13rem;
+}
+
+form input,
+form textarea,
+form label {
+  display: block;
+  font-size: 2rem;
+}
+
+.contact-button {
+  position: absolute;
+  top: 68rem;
+  left: 13rem;
+  padding: 1rem 3rem;
+  background: rgb(185, 176, 138);
+  border: 0.3rem solid black;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+
+h5 {
+  position: absolute;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 20rem;
+  left: 13rem;
+}
+
+h2 {
+  position: absolute;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 37rem;
+  left: 13rem;
+}
+
+.Jamie {
+  position: absolute;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 46rem;
+  left: 13rem;
+}
+.jamie {
+  position: absolute;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 52rem;
+  left: 13rem;
+  text-align: left;
+  padding: 0 11rem 0 0;
+}
+
+.Clint {
+  position: absolute;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 73rem;
+  left: 13rem;
+}
+.clint {
+  position: absolute;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 79rem;
+  left: 13rem;
+  text-align: left;
+  padding: 0 11rem 0 0;
+}
+.about {
+  position: absolute;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 28rem;
+  left: 13rem;
+  padding: 0 11rem 0 0rem;
+  list-style: none;
+}
+
+.reviews-head {
+  background-image: url("./ballpen-blank-desk-journal-606541\ \(1\).jpg");
+  height: 70.5rem;
+  background-size: cover;
+}
+
+.contact-pic {
+  background-image: url("./black-rotary-telephone-beside-ball-pen-on-white-printed-47319\ \(1\).jpg");
+  height: 70.5rem;
+  background-size: cover;
+}
+
+footer {
+  background-color: rgb(185, 176, 138);
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+}
+
+h6 {
+  font-size: 2rem;
+  position: absolute;
+  top: 133rem;
+  padding: 1rem 1rem 2rem 1rem;
+  left: 2rem;
+}
+
+.gluten {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  right: 7rem;
+  top: 118.5rem;
+}
+
+.sugar {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  right: 47rem;
+  top: 118.5rem;
+}
+
+.vegan {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  right: 87rem;
+  top: 118.5rem;
+}
