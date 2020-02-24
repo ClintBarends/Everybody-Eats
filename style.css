@@ -24,7 +24,7 @@ nav {
   display: inline;
   position: absolute;
   width: 25%;
-  height: 34.5%;
+  height: 34.6%;
   left: 1.4rem;
   top: 0;
 }
@@ -88,7 +88,21 @@ h4 {
 .footer-links {
   list-style: none;
 }
-
+.footer-links1 {
+  list-style: none;
+}
+.footer-links1 li {
+  justify-content: space-around;
+  width: 40%;
+  padding-bottom: 1rem;
+}
+.footer-links1 a {
+  color: black;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
 .recipe-pic {
   width: 70%;
   height: 63rem;
@@ -173,7 +187,7 @@ h2 {
   letter-spacing: 0.2rem;
   top: 52rem;
   left: 13rem;
-  text-align: left;
+  text-align: justify;
   padding: 0 11rem 0 0;
 }
 
@@ -192,9 +206,46 @@ h2 {
   letter-spacing: 0.2rem;
   top: 79rem;
   left: 13rem;
-  text-align: left;
+  text-align: justify;
   padding: 0 11rem 0 0;
 }
+.Louise {
+  position: absolute;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 95rem;
+  left: 13rem;
+}
+.louise {
+  position: absolute;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 101rem;
+  left: 13rem;
+  text-align: justify;
+  padding: 0 11rem 0 0;
+}
+.Nicole {
+  position: absolute;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 110rem;
+  left: 13rem;
+}
+.nicole {
+  position: absolute;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 116rem;
+  left: 13rem;
+  text-align: justify;
+  padding: 0 11rem 0 0;
+}
+
 .about {
   position: absolute;
   font-size: 1.5rem;
@@ -204,6 +255,7 @@ h2 {
   left: 13rem;
   padding: 0 11rem 0 0rem;
   list-style: none;
+  text-align: justify;
 }
 
 .reviews-head {
@@ -225,11 +277,24 @@ footer {
   align-items: center;
   padding: 3rem;
 }
+.footer1 {
+  position: absolute;
+  top: 210rem;
+  background-color: rgb(185, 176, 138);
+  align-items: center;
+}
 
 h6 {
   font-size: 2rem;
   position: absolute;
   top: 133rem;
+  padding: 1rem 1rem 2rem 1rem;
+  left: 2rem;
+}
+.h61 {
+  font-size: 2rem;
+  position: absolute;
+  top: 21rem;
   padding: 1rem 1rem 2rem 1rem;
   left: 2rem;
 }
@@ -256,4 +321,226 @@ h6 {
   height: 20%;
   right: 87rem;
   top: 118.5rem;
+}
+
+/*Recipe Designs*/
+
+.pic1 {
+  position: absolute;
+  width: 26%;
+  height: 30%;
+  left: 10rem;
+  top: 85rem;
+  box-shadow: 10px 10px 5px grey;
+}
+.pict1 {
+  position: absolute;
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 93rem;
+  left: 23rem;
+  font-weight: 120;
+  color: black;
+}
+.pic2 {
+  position: absolute;
+  width: 26%;
+  height: 30%;
+  left: 58.6rem;
+  top: 85rem;
+  box-shadow: 10px 10px 5px grey;
+}
+.pict2 {
+  position: absolute;
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 93rem;
+  left: 68.4rem;
+  font-weight: 120;
+  color: black;
+}
+.pic3 {
+  position: absolute;
+  width: 26%;
+  height: 30%;
+  right: 10rem;
+  top: 85rem;
+  box-shadow: 10px 10px 5px grey;
+}
+.pict3 {
+  position: absolute;
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 93rem;
+  left: 122.2rem;
+  font-weight: 120;
+  color: black;
+}
+.pic4 {
+  position: absolute;
+  width: 26%;
+  height: 30%;
+  left: 10rem;
+  top: 115rem;
+  box-shadow: 10px 10px 5px grey;
+}
+.pict4 {
+  position: absolute;
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 124rem;
+  left: 18rem;
+  font-weight: 120;
+  color: black;
+}
+.pic5 {
+  position: absolute;
+  width: 26%;
+  height: 30%;
+  left: 58.6rem;
+  top: 115rem;
+  box-shadow: 10px 10px 5px grey;
+}
+.pict5 {
+  position: absolute;
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 124rem;
+  left: 72rem;
+  font-weight: 120;
+  color: black;
+}
+.pic6 {
+  position: absolute;
+  width: 26%;
+  height: 30%;
+  right: 10rem;
+  top: 115rem;
+  box-shadow: 10px 10px 5px grey;
+}
+.pict6 {
+  position: absolute;
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 124rem;
+  left: 121rem;
+  font-weight: 120;
+  color: black;
+}
+.pic7 {
+  position: absolute;
+  width: 26%;
+  height: 30%;
+  left: 10rem;
+  top: 145.3rem;
+  box-shadow: 10px 10px 5px grey;
+}
+.pict7 {
+  position: absolute;
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 154rem;
+  left: 20.5rem;
+  font-weight: 120;
+  color: black;
+}
+.pic8 {
+  position: absolute;
+  width: 26%;
+  height: 30%;
+  left: 58.6rem;
+  top: 145.3rem;
+  box-shadow: 10px 10px 5px grey;
+}
+.pict8 {
+  position: absolute;
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 154rem;
+  left: 69rem;
+  font-weight: 120;
+  color: black;
+}
+.pic9 {
+  position: absolute;
+  width: 26%;
+  height: 30%;
+  right: 10rem;
+  top: 145.3rem;
+  box-shadow: 10px 10px 5px grey;
+}
+.pict9 {
+  position: absolute;
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 154rem;
+  left: 117.5rem;
+  font-weight: 120;
+  color: black;
+}
+.pic10 {
+  position: absolute;
+  width: 26%;
+  height: 30%;
+  left: 10rem;
+  top: 176rem;
+  box-shadow: 10px 10px 5px grey;
+}
+.pict10 {
+  position: absolute;
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 184.7rem;
+  left: 18.9rem;
+  font-weight: 120;
+  color: black;
+}
+.pic11 {
+  position: absolute;
+  width: 26%;
+  height: 30%;
+  left: 58.6rem;
+  top: 176em;
+  box-shadow: 10px 10px 5px grey;
+}
+.pict11 {
+  position: absolute;
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 184.7rem;
+  left: 63.5rem;
+  font-weight: 120;
+  color: black;
+}
+.pic12 {
+  position: absolute;
+  width: 26%;
+  height: 30%;
+  left: 107.4rem;
+  top: 176rem;
+  box-shadow: 10px 10px 5px grey;
+}
+.pict12 {
+  position: absolute;
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
+  top: 184.7rem;
+  left: 112rem;
+  font-weight: 120;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
 }
